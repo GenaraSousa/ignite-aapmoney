@@ -1,12 +1,11 @@
 import { FormEvent, useState } from 'react';
 import Modal from 'react-modal';
+import Swal from 'sweetalert2';
 import closeImg from '../../assets/close.svg';
 import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import { useTransactions } from '../../hooks/useTransactions';
 import { Container, RadioBox, TransactionTypeContainer } from './style';
-
-
 
 interface NewTransactionModalProps {
     isOpen: boolean;
@@ -38,9 +37,20 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
             setType('deposit');
             setTitle('');
             onRequestClose();
+
+            Swal.fire({
+                title: 'Cadastrado.',
+                icon: 'success',
+                confirmButtonColor: '#33CC95'
+            })
+
             return;
         }
-        alert("Deu ruim")
+        Swal.fire({
+            title: 'Necessário preencher todos os códigos.',
+            icon: 'warning',
+            confirmButtonColor: '#33CC95'
+        })
     }
 
     return (
