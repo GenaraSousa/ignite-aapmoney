@@ -38,6 +38,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
             setType('deposit');
             setTitle('');
             onRequestClose();
+            return;
         }
         alert("Deu ruim")
     }
