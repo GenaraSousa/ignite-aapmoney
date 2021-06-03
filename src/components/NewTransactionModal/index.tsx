@@ -46,11 +46,13 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
 
             return;
         }
+
         Swal.fire({
-            title: 'Necessário preencher todos os códigos.',
+            title: 'Necessário preencher todos os campos.',
             icon: 'warning',
             confirmButtonColor: '#33CC95'
         })
+
     }
 
     return (

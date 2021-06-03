@@ -28,6 +28,17 @@ export const Container = styled.form`
         }
     }
 
+    /* retirando botões de rolagem do input tipo number */
+    input[type="number"]::-webkit-outer-spin-button, 
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+    /*---------------------*/
+
     button[type="submit"] {
         width: 100%;
         padding: 0 1.5rem;
