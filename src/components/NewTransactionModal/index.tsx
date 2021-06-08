@@ -114,8 +114,6 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
 
                 />
                 <button type="submit"> Cadastrar</button>
-
-
             </Container>
         </Modal>
     );
