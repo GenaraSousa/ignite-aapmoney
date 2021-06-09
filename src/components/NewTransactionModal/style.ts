@@ -26,6 +26,11 @@ export const Container = styled.form`
         & + input {
            margin-top : 1rem ;
         }
+        &:focus {
+            outline: none !important;
+            border:1.5px solid var(--green);
+            box-shadow: 0 0 2px #719ECE;
+        }
     }
 
     /* retirando botões de rolagem do input tipo number */

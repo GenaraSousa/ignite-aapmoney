@@ -6,6 +6,12 @@ import { Container, ContainerLogin } from "./style";
 export function SingInPage() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+
+    function handleSubmitLogin() {
+
+    }
+
     return (
         <Container>
             <HeaderLogin />

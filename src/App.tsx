@@ -1,6 +1,6 @@
 
 import Modal from 'react-modal';
-import { SingInPage } from './pages/SingInPage/index';
+import { Home } from './pages/HomePage';
 import { GlobalStyle } from './styles/global';
 
 Modal.setAppElement('#root')
@@ -8,11 +8,11 @@ export function App() {
 
   return (
     <>
-      <SingInPage />
+      <Home />
       <GlobalStyle />
     </>
-    //<Home />
   );
 }
+//<SingInPage />
 
 

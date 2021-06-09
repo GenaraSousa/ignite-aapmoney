@@ -3,6 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.header`
 `
 export const Content = styled.div`
+
+    @media (max-width: 411px){
+            font-size: 70.5%;
+            background: blue;
+            
+    }
+    
     max-width: 1120px;
     margin: 0 auto;
 
