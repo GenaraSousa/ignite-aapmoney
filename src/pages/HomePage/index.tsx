@@ -6,7 +6,7 @@ import { TransactionsProvider } from '../../hooks/useTransactions';
 import { GlobalStyle } from '../../styles/global';
 
 
-export function Home() {
+export function HomePage() {
 
     const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
@@ -23,6 +23,7 @@ export function Home() {
             <Header onOpenNewTransactionModal={handleOpenNewTransactionModalOpen} ></Header>
 
             <Dashboard />
+            <button>Nova transação</button>
 
             <NewTransactionModal
                 isOpen={isNewTransactionModalOpen}

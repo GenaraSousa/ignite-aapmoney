@@ -27,7 +27,19 @@ export const ButtonGoogle = styled.button`
     }
 `;
 
+
+
+
 export const ContainerLogin = styled.form`
+
+@media (max-width: 414px) {
+      width: 24rem;
+      height: 26rem;
+      h2{
+        font-size: 2.5rem !important;
+      }
+    }
+
     padding: 2rem 1rem 1rem;
     display: flex;
     align-self: center;
@@ -52,7 +64,7 @@ export const ContainerLogin = styled.form`
         background: var(--input-background);
         
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.9rem;
 
         &::placeholder {
             color: var(--text-body);
@@ -87,4 +99,6 @@ export const ContainerLogin = styled.form`
         }
 
     }
+
+
 `;
