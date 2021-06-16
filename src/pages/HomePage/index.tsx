@@ -20,11 +20,9 @@ export function HomePage() {
 
     return (
         <TransactionsProvider>
-            <Header onOpenNewTransactionModal={handleOpenNewTransactionModalOpen} ></Header>
+            <Header></Header>
 
-            <Dashboard />
-            <button>Nova transação</button>
-
+            <Dashboard onOpenNewTransactionModal={handleOpenNewTransactionModalOpen} />
             <NewTransactionModal
                 isOpen={isNewTransactionModalOpen}
                 onRequestClose={handleCloseNewTransactionModalOpen} />
