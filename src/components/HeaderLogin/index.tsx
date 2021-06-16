@@ -6,7 +6,7 @@ export function HeaderLogin() {
             <Content>
                 <img src={logoImg} alt="aat. money" />
                 <button type="button" onClick={() => { }}>
-                    Entrar
+                    Cadastrar
                 </button>
             </Content>
         </Container>

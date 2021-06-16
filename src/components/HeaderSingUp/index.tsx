@@ -6,7 +6,7 @@ export function HeaderSingUp() {
             <Content>
                 <img src={logoImg} alt="aat. money" />
                 <button type="button" onClick={() => { }}>
-                    Cadastrar
+                    Entrar
                 </button>
             </Content>
         </Container>

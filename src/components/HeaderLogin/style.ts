@@ -5,7 +5,10 @@ export const Container = styled.header`
 export const Content = styled.div`
 
     @media (max-width: 411px){
-            font-size: 70.5%;        
+            font-size: 70.5%;
+            img {
+                width: 10rem;
+            }        
     }
     
     max-width: 1120px;
