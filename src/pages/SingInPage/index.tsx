@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { FcGoogle } from "react-icons/fc";
 import { HeaderLogin } from "../../components/HeaderLogin";
-import { ButtonGoogle, Container, ContainerLogin } from "./style";
+import { Container, ContainerLogin } from "./style";
 
 
 export function SingInPage() {
@@ -18,10 +17,6 @@ export function SingInPage() {
             <HeaderLogin />
             <ContainerLogin>
                 <h2>Entrar</h2>
-                <ButtonGoogle>
-                    <FcGoogle />
-                    <span>Google</span>
-                </ButtonGoogle>
                 <input
                     type="email"
                     placeholder="E-mail"
