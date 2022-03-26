@@ -1,5 +1,6 @@
 
 import Modal from 'react-modal';
+import { HomePage } from './pages/HomePage';
 import { SinUpPage } from './pages/SingUpPage';
 import { GlobalStyle } from './styles/global';
 
@@ -8,7 +9,8 @@ export function App() {
 
   return (
     <>
-      <SinUpPage />
+      {/* <SinUpPage /> */}
+      <HomePage />
       <GlobalStyle />
     </>
   );

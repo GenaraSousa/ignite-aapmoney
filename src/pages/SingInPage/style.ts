@@ -7,7 +7,6 @@ export const Container = styled.div`
     height: 100%;
     flex-direction: column;
 `;
-
 export const ButtonGoogle = styled.button`
     display: flex;
     align-items: center;
