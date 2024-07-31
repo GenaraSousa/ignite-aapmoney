@@ -1,7 +1,6 @@
 # ignite-aapmoney
 ## Projeto
 O aap.money é um aplicativo web que tem por objetivo a gerência de finanças pessoais.
-O projeto foi construído durante o curso ignite na trilha de Reactjs e sofreu algumas alterações na UI
 
 ## Tecnologias utilizadas
 - React
